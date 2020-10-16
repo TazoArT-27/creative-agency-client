@@ -1,0 +1,39 @@
+.input-box{
+    width: 630px;
+    height: 55px;
+    border: 1px solid white;
+}
+.img-box{
+    height: 50px;
+}
+
+@media screen and (max-width: 1080px){
+   .img-box{
+       height: 40px;
+   }
+}
+@media screen and (max-width: 915px){
+    .img-box{
+        height: 34px;
+    }
+ }
+ @media screen and (max-width: 767px){
+    .img-box{
+        height: 50px;
+    }
+ }
+ @media screen and (max-width: 887px){
+    .input-box{
+        width: 530px;
+        height: 55px;
+        border: 1px solid white;
+    }
+ }
+
+ @media screen and (max-width: 655px){
+    .input-box{
+        width: 400px;
+        height: 55px;
+        border: 1px solid white;
+    }
+ }

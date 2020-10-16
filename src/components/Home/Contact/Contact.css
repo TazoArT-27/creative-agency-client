@@ -1,0 +1,14 @@
+.contact-container{
+    background-color: #FBD062;
+}
+@media screen and (max-width: 767px){
+    .contact-text{
+        padding: 10px;
+        margin-left: 20px;
+    }
+    .contact-form{
+        padding: 10px;
+        margin-left: 20px;
+        max-width: 450px!important;
+    }
+}

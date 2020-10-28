@@ -7,7 +7,7 @@ import FeedPerson from '../FeedPerson/FeedPerson';
 const Feedback = () => {
     const [feed, setFeed] = useState([])
     useEffect( () => {
-        fetch('http://localhost:5000/feeds')
+        fetch('https://infinite-waters-86827.herokuapp.com/feeds')
         .then(res => res.json())
         .then(data => setFeed(data))
     }, [])

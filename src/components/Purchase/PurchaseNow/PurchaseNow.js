@@ -6,7 +6,7 @@ import  './PurchaseNow.css';
 const PurchaseNow = ({date}) => {
     const [servicess, setServicess] = useState([])
     useEffect( () => {
-        fetch('http://localhost:5000/servicess')
+        fetch('https://infinite-waters-86827.herokuapp.com/servicess')
         .then(res => res.json())
         .then(data => setServicess(data))
     }, [])

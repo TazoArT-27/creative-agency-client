@@ -16,7 +16,7 @@ const Order = () => {
     
 
     useEffect(() => {
-		fetch("http://localhost:5000/home/services")
+		fetch("https://infinite-waters-86827.herokuapp.com/home/services")
 			.then((res) => res.json())
 			.then((data) => setSelectedService(data.find((item) => item._id === _id)));
     }, []);
@@ -26,7 +26,7 @@ const Order = () => {
     const onSubmit = data =>{
         //console.log(data);
         data.created = new Date();
-        fetch('http://localhost:5000/addProjects', { 
+        fetch('https://infinite-waters-86827.herokuapp.com/addProjects', { 
             method: 'POST',
             headers: {'content-type': 'application/json'},
             body: JSON.stringify(data, {email: loggedInUser.email})

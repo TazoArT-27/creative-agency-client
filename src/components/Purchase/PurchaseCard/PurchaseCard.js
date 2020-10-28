@@ -7,7 +7,7 @@ const PurchaseCard = ({service, date}) => {
         <div className="card align-items-center card1">
 					<div className="img-section">
                         <img
-                            src={`http://localhost:5000/${service.file.name}`}
+                            src={`https://infinite-waters-86827.herokuapp.com/${service.file.name}`}
                             alt={service.title}
                             className="img-fluid mt-4 image-body" 
                             style={{height: '60px', width: '60px'}}

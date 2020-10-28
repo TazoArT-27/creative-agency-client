@@ -8,7 +8,7 @@ const InfoCard = ({service}) => {
 					<div className="img-section">
                         {service.image ? <img alt='' style={{height: '60px', width: '60px'}} src={`data:image/png;base64,${service.image.img}`}/>
                             :<img
-                            src={`http://localhost:5000/${service.file.name}`}
+                            src={`https://infinite-waters-86827.herokuapp.com/${service.file.name}`}
                             alt={service.title}
                             className="img-fluid mt-4 image-body" 
                             style={{height: '60px', width: '60px'}}

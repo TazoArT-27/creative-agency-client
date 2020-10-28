@@ -5,7 +5,7 @@ const OrderForm = () => {
     const onSubmit = data =>{
         //console.log(data);
         
-        fetch('http://localhost:5000/addProjects', { 
+        fetch('https://infinite-waters-86827.herokuapp.com/addProjects', { 
             method: 'POST',
             headers: {'content-type': 'application/json'},
             body: JSON.stringify(data)

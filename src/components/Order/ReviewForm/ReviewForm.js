@@ -23,7 +23,7 @@ const ReviewForm = () => {
         formData.append('designation', info.designation)
         formData.append('description', info.description)
 
-        fetch('http://localhost:5000/addAReview', {
+        fetch('https://infinite-waters-86827.herokuapp.com/addAReview', {
             method: 'POST',
             body: formData
         })

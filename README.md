@@ -1,4 +1,59 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Creative Agency
+
+### Website : [Go To Live Site] ( https://creative-agency-ba4ee.firebaseapp.com/)
+
+### Works Done : 
+    1. Arrangements have been made to route all pages through react router
+    2. This has been bootstrapped for the design
+    3. Dashboard added for both customer and admin
+
+### Main Features : 
+    1. This is a software service provider farm where customer can order by their demand of work.
+    2. Admins can easily control this website as it has separate login system for admins and clients.
+    3. Here admin can add new service as their company grows and a customer can also see if the service is available or not.
+    4. Tried to make this site fully responsive.
+    5. Customers can give a feedback about their experience.
+
+### Frameworks/Libraries : 
+    1. React.js
+    2. Firebase Authentication
+    3. Node.js
+    4. MongoDB Database
+    5. React Calendar
+    6. Slick Carousel
+    7. React Font Awesome
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
@@ -65,4 +120,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 ### `npm run build` fails to minify
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify -->

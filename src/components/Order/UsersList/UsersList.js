@@ -20,7 +20,7 @@ const UsersList = () => {
     const handleDateChange = date => {
         setSelectedDate(date);
 
-        fetch('http://localhost:5000/projectByDate', {
+        fetch('https://infinite-waters-86827.herokuapp.com/projectByDate', {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
              body: JSON.stringify({date: selectedDate, email: loggedInUser.email})

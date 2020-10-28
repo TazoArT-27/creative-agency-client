@@ -9,7 +9,7 @@ const FeedPerson = ({feed}) => {
                             {
                                 feed.image ? <img alt='' style={{height: '50px', width: '50px'}} src={`data:image/png;base64,${feed.image.img}`}/>
                             :
-                                <img style={{height: '50px', width: '50px'}} src={`http://localhost:5000/${feed.file.name}`} alt=""/>
+                                <img style={{height: '50px', width: '50px'}} src={`https://infinite-waters-86827.herokuapp.com/${feed.file.name}`} alt=""/>
                             }
                         </div>
                         <div className="col-md-8">
